@@ -48,6 +48,12 @@ describe('Age', () => {
   })
 
 
+  test('should return years left until life expectancy on Mars', () => {
+    planetAge.mars();
+    expect(planetAge.planetRemainder()).toEqual("You have 29 years left to live.")
+  })
+
+
   
 
 
