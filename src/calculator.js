@@ -20,6 +20,11 @@ export default class Age {
     return this.earthAge;
   }
 
+  venusRemainder() {
+    this.earthAge = parseInt((this.expectancy / 0.62).toFixed());
+    return this.earthAge; 
+  }
+
   mars() {
     this.earthAge = parseInt((this.earthAge / 1.88).toFixed());
     return this.earthAge;

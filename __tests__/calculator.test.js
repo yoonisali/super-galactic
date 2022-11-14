@@ -31,7 +31,9 @@ describe('Age', () => {
     expect(planetAge.mercuryRemainder()).toEqual(304)
   })
 
-
+  test('should return life expectancy in Mercury years', () => {
+    expect(planetAge.venusRemainder()).toEqual(118)
+  })
 
   
 
