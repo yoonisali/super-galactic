@@ -36,10 +36,10 @@ describe('Age', () => {
   });
   
 
-  // test('should return life expectancy in Mercury years', () => {
-  //   planetAge.mercury();
-  //   expect(planetAge.planetRemainder()).toEqual(229)
-  // })
+  test('should return return status of life expectancy on Mercury', () => {
+    planetAge.mercury();
+    expect(planetAge.planetRemainder()).toEqual("You have 229 years left to live.")
+  })
 
 
 

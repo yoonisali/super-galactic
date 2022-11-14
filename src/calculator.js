@@ -25,8 +25,14 @@ export default class Age {
     this.expectancy = parseInt((this.expectancy / 11.86).toFixed());
   }
 
-  // planetRemainder() {
-  //   this.remainder = this.expectancy - this.earthAge;
-  //   return this.remainder;
-  // }
+  planetRemainder() {
+    let remainder = this.expectancy - this.earthAge;
+
+    if(remainder > 0) {
+      this.remainder = `You have ${remainder} years left to live.`
+    } else if(remainder < 0) {
+      this.remainder = `You have lived ${remainder} years past your life expectancy.`
+    }
+    return this.remainder;
+  }
 }
