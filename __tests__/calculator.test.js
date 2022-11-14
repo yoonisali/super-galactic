@@ -71,6 +71,12 @@ describe('Age', () => {
     expect(planet.planetRemainder()).toEqual("You have lived 3 years past your life expectancy.")
   })
 
+  test('should return years lived past expectancy on Mars', () => {
+    let planet = new Age(75,73);
+    planet.mars();
+    expect(planet.planetRemainder()).toEqual("You have lived 1 years past your life expectancy.")
+  })
+
 
 
 
