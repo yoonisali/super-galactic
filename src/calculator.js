@@ -8,5 +8,10 @@ export default class Age {
     this.earth = parseInt((this.earth / .24).toFixed());
     return this.earth;
   }
+
+  venus() {
+    this.earth = parseInt((this.earth / .62).toFixed());
+    return this.earth;
+  }
   
 };
