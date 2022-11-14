@@ -1,31 +1,39 @@
 import Age from "../src/calculator.js";
 
 describe('Age', () => {
-  let age;
+  let planetAge;
   beforeEach( () => {
-    age = new Age(18, 73);
+    planetAge = new Age(18, 73);
   });
 
   test('should show an Age constructor with properties', () => {
-    expect(age.earth).toEqual(18);
-    expect(age.expectancy).toEqual(73);
+    expect(planetAge.earthAge).toEqual(18);
+    expect(planetAge.expectancy).toEqual(73);
   });
 
-  test('should return age in Mercury years', () => {
-    expect(age.mercury()).toEqual(75);
+  test('should return Age in Mercury years', () => {
+    expect(planetAge.mercury()).toEqual(75);
   });
 
-  test('should return age in Venus years', () => {
-    expect(age.venus()).toEqual(29);
+  test('should return Age in Venus years', () => {
+    expect(planetAge.venus()).toEqual(29);
   });
 
-  test('should return age in Mars years', () => {
-    expect(age.mars()).toEqual(10);
+  test('should return Age in Mars years', () => {
+    expect(planetAge.mars()).toEqual(10);
   });
 
-  test('should return age in Jupiter years', () => {
-    expect(age.jupiter()).toEqual(2);
+  test('should return Age in Jupiter years', () => {
+    expect(planetAge.jupiter()).toEqual(2);
   });
+
+  test('should return life expectancy in Mercury years', () => {
+    expect(planetAge.mercuryRemainder()).toEqual(304)
+  })
+
+
+
+  
 
 
 });
