@@ -27,7 +27,6 @@ export default class Age {
 
   planetRemainder() {
     let remainder = this.expectancy - this.earthAge;
-
     if(remainder > 0) {
       this.remainder = `You have ${remainder} years left to live.`
     } else if(remainder < 0) {

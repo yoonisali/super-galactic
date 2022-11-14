@@ -1,0 +1,59 @@
+body {
+  background-image: url(../assets/images/stars.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-family: 'Iceland', cursive;
+}
+
+h1 {
+  font-size: 63px;
+}
+
+#galaxy {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+} 
+
+.planetWrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  width: 200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 160px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+input {
+  padding: 10px 25px;
+  font-size: 12px;
+}
+
+button {
+  padding: 10px 40px;
+}
+
+/* .hidden {
+  display: none;
+} */
