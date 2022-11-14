@@ -31,7 +31,7 @@ export default class Age {
     if(remainder > 0) {
       this.remainder = `You have ${remainder} years left to live.`
     } else if(remainder < 0) {
-      this.remainder = `You have lived ${remainder} years past your life expectancy.`
+      this.remainder = `You have lived ${Math.abs(remainder)} years past your life expectancy.`
     }
     return this.remainder;
   }
