@@ -17,7 +17,7 @@ export default class Age {
 
   mars() {
     this.earthAge = parseInt((this.earthAge / 1.88).toFixed());
-    return this.earthAge;
+    this.expectancy = parseInt((this.expectancy / 1.88).toFixed());
   }
 
   jupiter() {
