@@ -2,27 +2,17 @@ export default class Age {
   constructor(earthAge, expectancy) {
     this.earthAge = earthAge;
     this.expectancy = expectancy;
-    this.remainder = this.expectancy - this.earthAge;
+    this.remainder = 0;
   }
 
   mercury() {
     this.earthAge = parseInt((this.earthAge / 0.24).toFixed());
-    return this.earthAge;
+    this.expectancy = parseInt((this.expectancy / 0.24).toFixed());
   }
 
-  mercuryRemainder() {
-    this.earthAge = parseInt((this.expectancy / 0.24).toFixed());
-    return this.earthAge; 
-  }
-  
   venus() {
     this.earthAge = parseInt((this.earthAge / 0.62).toFixed());
-    return this.earthAge;
-  }
-
-  venusRemainder() {
-    this.earthAge = parseInt((this.expectancy / 0.62).toFixed());
-    return this.earthAge; 
+    this.expectancy = parseInt((this.expectancy / 0.62).toFixed());
   }
 
   mars() {
@@ -34,4 +24,9 @@ export default class Age {
     this.earthAge = parseInt((this.earthAge / 11.86).toFixed());
     return this.earthAge;
   }
+
+  // planetRemainder() {
+  //   this.remainder = this.expectancy - this.earthAge;
+  //   return this.remainder;
+  // }
 }

@@ -11,29 +11,34 @@ describe('Age', () => {
     expect(planetAge.expectancy).toEqual(73);
   });
 
-  test('should return Age in Mercury years', () => {
-    expect(planetAge.mercury()).toEqual(75);
+  test('should return age and expectancy in Mercury years', () => {
+    planetAge.mercury();
+    expect(planetAge.earthAge).toEqual(75);
+    expect(planetAge.expectancy).toEqual(304);
   });
 
-  test('should return Age in Venus years', () => {
-    expect(planetAge.venus()).toEqual(29);
+  test('should return age and expectancy in Venus years', () => {
+    planetAge.venus();
+    expect(planetAge.earthAge).toEqual(29);
+    expect(planetAge.expectancy).toEqual(118);
   });
 
-  test('should return Age in Mars years', () => {
-    expect(planetAge.mars()).toEqual(10);
+  test('should return age and expectancy in Mars years', () => {
+    planetAge.mars();
+    expect(planetAge.earthAge).toEqual(10);
   });
 
-  test('should return Age in Jupiter years', () => {
-    expect(planetAge.jupiter()).toEqual(2);
+  test('should return age and expectancy in Jupiter years', () => {
+    planetAge.jupiter();
+    expect(planetAge.earthAge).toEqual(2);
   });
 
-  test('should return life expectancy in Mercury years', () => {
-    expect(planetAge.mercuryRemainder()).toEqual(304)
-  })
+  // test('should return life expectancy in Mercury years', () => {
+  //   planetAge.mercury();
+  //   expect(planetAge.planetRemainder()).toEqual(229)
+  // })
 
-  test('should return life expectancy in Mercury years', () => {
-    expect(planetAge.venusRemainder()).toEqual(118)
-  })
+
 
   
 
