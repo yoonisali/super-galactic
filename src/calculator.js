@@ -22,7 +22,7 @@ export default class Age {
 
   jupiter() {
     this.earthAge = parseInt((this.earthAge / 11.86).toFixed());
-    return this.earthAge;
+    this.expectancy = parseInt((this.expectancy / 11.86).toFixed());
   }
 
   // planetRemainder() {
