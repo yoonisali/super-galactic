@@ -21,10 +21,10 @@ This project will take the user's input and calculate their age whether they wer
 
 * _Clone to your desktop_
 * _Open terminal_
-* _Run: npm install_
-* _Run: npm run build_
-* _Run: npm run start_
-* _Run: npm run test__
+* _Run: `npm install_`
+* _Run: `npm run build_`
+* _Run: `npm run start_`
+* _Run: `npm run test__`
 
 ## Known Bugs
 
