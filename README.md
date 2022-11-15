@@ -1,29 +1,36 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### A project that will calculate a user's inputted age and calculate them if they were to be on Mercury, Venus, Mars, or Jupiter.
 
-#### By (Your Name Here)
+#### By Yoonis Ali
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _Jest_
+* _Babel_
+* _Webpack_
+* _ES Lint_
 
-## Description
+## DescriptionMercury, Venus, Mars, or Jupiter.
+This project will take the user's input and calculate their age whether they were on Mercury, Venus, Mars, or Jupiter. It will also tell them their life expectancy and how they have left to live. It will also tell them how many years they lived past their life expectancy.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone to your desktop_
+* _Open terminal_
+* _Run: npm install_
+* _Run: npm run build_
+* _Run: npm run start_
+* _Run: npm run test__
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None_
 
 ## License
+MIT
+
+Copyright (c) 2022 Yoonis Ali
