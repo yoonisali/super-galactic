@@ -14,7 +14,7 @@
 * _Webpack_
 * _ES Lint_
 
-## DescriptionMercury, Venus, Mars, or Jupiter.
+## Description
 This project will take the user's input and calculate their age whether they were on Mercury, Venus, Mars, or Jupiter. It will also tell them their life expectancy and how they have left to live. It will also tell them how many years they lived past their life expectancy.
 
 ## Setup/Installation Requirements
