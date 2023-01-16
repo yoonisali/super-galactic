@@ -1,4 +1,3 @@
-import './css/styles.css';
 import Age from "./calculator.js";
 
 function displayAge() {
